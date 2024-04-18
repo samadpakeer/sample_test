@@ -1,7 +1,11 @@
-// Your First Program
+pipeline {
+    agent any
 
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!"); 
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
