@@ -13,5 +13,5 @@ glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
-print("Deploying direcly from github Hurry, Its succesfull")
+print("Hurrey, We have deployed the cicd april 22 on 1 pm")
 job.commit()
