@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Move file to folder
-      run: sudo cp test_job_jenkins.py /home/ubuntu/glue-script
+      run: sudo cp test_job_jenkins.py /home/ubuntu/glue-script/
 
     - name: Run the destination
-      run: python3 /home/ubuntu/glue-script/sam.py
+      run: python3 /home/ubuntu/glue-script/test_job_jenkins.py
