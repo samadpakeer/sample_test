@@ -13,5 +13,5 @@ glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
-print("Glue job testing for jenkins")
+print("Deploying direcly from github Hurry, Its succesfull")
 job.commit()
